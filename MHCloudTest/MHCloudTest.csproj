@@ -229,13 +229,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Backup\AzureAD\App_Start\IdentityConfig.cs" />
-    <Compile Include="Backup\AzureAD\App_Start\Startup.Auth.cs" />
-    <Compile Include="Backup\AzureAD\Controllers\AccountController.cs" />
-    <Compile Include="Backup\AzureAD\Controllers\ManageController.cs" />
-    <Compile Include="Backup\AzureAD\Models\IdentityModels.cs" />
-    <Compile Include="Backup\AzureAD\Models\ManageViewModels.cs" />
-    <Compile Include="Backup\AzureAD\Startup.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserProfileController.cs" />
@@ -266,7 +259,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Backup\AzureAD\Views\Shared\_LoginPartial.cshtml" />
     <None Include="Properties\PublishProfiles\MHCloudTest20160722035338 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
